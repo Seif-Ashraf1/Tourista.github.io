@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tourista</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Alx.css">
+    <link rel="icon" type="image/x-icon" href="ziad/icon.png">
+    <script>
+        function mOver(obj){
+            obj.innerHTML= "Thanks for Visting"
+        }
+        function mOut(obj){
+            obj.innerHTML="Mouse over"
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="ziad/logo.png" class="logo">
+            <div class="content1">
+                <nav class="navigation">
+                    <a href="test2.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="Feedback.html">Feedback</a>
+                    <a href="#">Contact Us</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <h1>
+        Alexandria|الاسكندرية
+    </h1>
+    <!-- <h3> Alexandria Places:</h3> -->
+    <div class="list">
+        <div class="c1">
+            <strong>Bey Citadel</strong>
+            <video src="bey.mp4" autoplay muted loop class="video1"></video>
+            <p>
+                The Bey Citadel, also known as Qal'at al-Bahrain, is an archaeological site located in the Kingdom of
+                Bahrain.
+                It is an ancient fortification situated atop a 17.5-meter high tell, a type of archaeological mound
+                formed by
+                centuries of human occupation. The citadel is believed to have been constructed around 2300 BC and was
+                inhabited continuously until the 16th century AD.Historical Significance: The site has great historical
+                importance as it represents over 4,000 years of continuous human settlement, making it one of the most
+                significant archaeological sites in Bahrain.
+            </p>
+        </div>
+        <div class="c2">
+            <strong>Alexandria Library</strong>
+            <video src="alexlibrary.mp4" autoplay muted loop class="video2"></video>
+            <P>
+                The Bibliotheca Alexandrina, a modern reconstruction of the ancient Library of Alexandria in Egypt,
+                is a renowned cultural and research center. It houses extensive collections, hosts cultural events,
+                and symbolizes Alexandria's historical legacy as a hub of knowledge and learning.The original Library
+                of Alexandria was founded in the 3rd century BC and became renowned for its vast collection of scrolls
+                and manuscripts,
+                attracting scholars, philosophers, and intellectuals from across the ancient world.
+            </P>
+        </div>
+        <div class="c3">
+            <strong>Ancient Roman Theater</strong>
+            <video src="theater.mp4" autoplay muted loop class="video3"></video>
+            <p>
+                The ancient theater of Alexandria, known as the Kom el Dikka theater, is a historical amphitheater
+                located in Alexandria,
+                Egypt. It dates back to the Roman period and is considered one of the most significant archaeological
+                sites in the city.
+                The theater was built during the Roman occupation of Egypt, likely in the 2nd century AD, and was part
+                of a larger complex
+                that included public baths and a small market,The theater follows the typical Roman design with a
+                semicircular orchestra.
+            </p>
+        </div>
+        <div class="c4">
+            <strong>Cleopatra's Palace</strong>
+            <video src="celo.mp4" autoplay muted loop class="video4"></video>
+            <p>
+                Cleopatra's underwater palace refers to the possible existence of a submerged palace or structure
+                associated with Queen Cleopatra
+                VII of Egypt. While there are historical references and legends about Cleopatra's lavish lifestyle and
+                her connections to Alexandria's
+                coastal areas, concrete evidence of an underwater palace directly linked to her remains elusive.Ancient
+                texts and accounts mention
+                Cleopatra's fondness for lavish living and her interest in maritime activities, leading to speculation
+                about the existence of a grand
+                palace or villa along the Mediterranean coast, possibly submerged over time.
+            </p>
+        </div>
+
+    </div>
+    <button type="button" onclick="document.getElementById('location').style.display='block'">
+        See Location
+    </button>
+    <div id="location">
+        <h3>
+            Location:
+        </h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218360.43102698462!2d30.11969705678766!3d31.
+        22400577118536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c49126710fd3%3A0xb4e0cda629ee6bb9!2z2KfZhNil2LPZg9mG2K_Y
+        sdmK2KnYjCDZhdit2KfZgdi42Kkg2KfZhNil2LPZg9mG2K_YsdmK2Kk!5e0!3m2!1sar!2seg!4v1714155592762!5m2!1sar!2seg"
+            width="300" height="200" style="border:10px;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="b"></iframe>
+    </div>
+    <h3>
+        Art in Alexandria:
+    </h3>
+    <div class="audio">
+        <p>
+            Throughout the ages, Alexandria has been a vibrant nexus of art and culture, evolving from its ancient
+            origins as a center of learning and intellectual
+            pursuit to its modern-day status as a thriving hub of artistic expression. In antiquity, the city's famed
+            Library of Alexandria attracted scholars
+            and thinkers from around the world, fostering a rich tapestry of ideas and creativity. Under Hellenistic and
+            Roman influence, Alexandria became a
+            melting pot of diverse cultures, evident in its architectural marvels like the Serapeum and the Kom el Dikka
+            theater, where dramatic performances and
+            music flourished. Over the centuries, Byzantine, Islamic, and Renaissance influences further enriched
+            Alexandria's artistic heritage, leading to the
+            modern revival exemplified by the Bibliotheca Alexandrina. Today, Alexandria's contemporary art scene, with
+            its galleries, festivals, and cultural
+            events, continues to honor this legacy of artistic excellence and cultural diversity, making it a beacon of
+            creativity that transcends time and borders.
+            <audio src="artaudio.mp3" type="audio/mp3" controls></audio>
+        </p>
+    </div>
+    <div class="is">
+        <form action="" method="post">
+            <p class="ask">Did you enjoye it? </p>
+            <label><input type="radio" name="check" value="yes" required >Yes </label>
+            <label><input type="radio" name="check" value="no" required >No</label>
+            <input type="submit" value="send" class="submit">
+        </form>
+    </div>
+    <div id="demo" onmouseover="mOver(this)"
+    onmouseout="mOut(this)">
+    <p class="over">Mouse over</p>
+    </div>
+</body>
+
+</html>

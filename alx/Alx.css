@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Tes New Roman', serif;
+    color: #eaeffc;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(ziad/alexbackground.avif);
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+header{
+
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.container
+{   display: flex;
+    
+}
+.content1{
+    margin-left: 550px;
+    margin-bottom: 100px;
+    padding-top: 20px ;
+
+}
+.logo{
+    margin-left: 30px;
+    padding-left: 100px;
+    padding-top: 20px;
+    height: auto;
+    left:0px;
+    width: 100px;
+    height: 65px;
+    cursor: pointer;
+}
+.navigation a{
+    position: relative;
+    font-size: 1.3em;
+    color: #fcfcfc;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 40px;
+    
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -6px;
+    height: 3px;
+    background: #eaeffc;
+    border-radius: 5px;
+    transform-origin: right ;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover:after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.navigation .Login-popup{
+
+    width: 130px;
+    height: 50px;
+    background: transparent;
+     border: 2px solid #ffffff; 
+     padding: 6px;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.3em;
+    color: #fcfcfc;
+    font-weight: 600;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation .Login-popup:hover{
+    background: #fcfcfc;
+    color: rgb(0, 3, 4);
+    
+
+}
+h1{
+    color: rgb(255, 111, 0);
+    text-align: center;
+    margin-bottom: 100px;
+}
+ul{
+    padding: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+
+}
+li{
+    padding-left: 50px ;
+    margin-top: 50px;
+
+}
+strong:hover
+{
+    color: rgb(227, 255, 165);
+}
+a{
+    text-decoration:none;
+
+}
+h4,h3{
+    margin: 10px;
+    color: rgb(235, 149, 0);
+}
+.list{
+    display: flex;
+    margin-top: 30px;
+}
+.c1,.c2,.c3,.c4{
+    width: 25%;
+    margin-right: 90px;
+}
+.video1,.video2,.video4
+{
+    width: 100%;
+    height: max-content;
+    border-radius: 30%;
+    margin-top: 50px;
+}
+strong{
+    color: rgb(235, 149, 0);
+    margin-left: 65px;
+    
+}
+.video3{
+width: 100%;
+height: 200px;
+border-radius: 40%;
+margin-top:50px ;
+}
+.audio{
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    
+}
+p{
+    padding-bottom:50px;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+audio{
+    display: flex;
+ width: 400px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 0px;
+}
+#location
+{
+    margin-bottom: 250px;
+    display: none;
+}
+button{
+    background-color: #eaeffc;
+    color: black;
+    border-radius: 50px;
+    padding: 5px;
+    margin-left: 20px;
+    height: 40px;
+}
+button:hover{
+    background-color: rgb(182, 182, 182);
+}
+.b {
+    float: right;
+    clear: both;
+    border-radius: 35px;
+    margin-right: 70%;
+}
+video.video5{
+    width:50%;
+    height: 700px;
+    position: relative;
+    border-radius: 10%;
+    margin-left: 350px;
+  
+}
+label{
+    margin-left: 200px;
+    
+}
+.is{
+    margin-bottom: 50px;
+
+}
+.submit{
+    background-color: #eaeffc;
+    color: black;
+    border-radius: 50px;
+    padding: 5px;
+    margin-left: 20px;
+    height: 40px;
+}
+.submit:hover{
+    background-color: rgb(182, 182, 182);
+}
+p.ask{
+    color: rgb(227, 255, 165);
+}
+#demo{
+    width: 140px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(139, 105, 0);
+    text-align: center;
+
+}
