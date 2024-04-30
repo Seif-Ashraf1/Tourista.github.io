@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Tes New Roman', serif;
+    color: #fcfcfc;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(ziad/aswan\ background.webp);
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+header{
+
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.container
+{   display: flex;
+    
+}
+.content1{
+    margin-left: 700px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-top:px ;
+}
+.logo{
+    margin-left: 80px;
+    margin-top: 40px;
+    height: auto;
+    left:0px;
+    width: 100px;
+    height: 65px;
+    cursor: pointer;
+}
+.navigation a{
+    position: relative;
+    font-size: 1.3em;
+    color: #fcfcfc;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 40px;
+    
+}
+.navigation a::after{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -6px;
+    height: 3px;
+    background: #eaeffc;
+    border-radius: 5px;
+    transform-origin: right ;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover:after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.navigation .Login-popup{
+
+    width: 130px;
+    height: 50px;
+    background: transparent;
+     border: 2px solid #ffffff; 
+     padding: 6px;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.3em;
+    color: #fcfcfc;
+    font-weight: 600;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation .Login-popup:hover{
+    background: #fcfcfc;
+    color: rgb(0, 3, 4);
+    
+
+}
+ ul{
+    padding: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    list-style-type: square;
+    list-style-position: inside;
+}
+li{
+    padding-left: 50px ;
+}
+/* hr{
+    border-top: 10px so burlywood;
+    border-radius: 10px;
+} */
+li:hover
+{
+    color:rgb(160, 0, 0);
+}
+a{
+    text-decoration:none;
+
+}
+h1{
+    color: rgb(255, 111, 0);
+    text-align: center;
+}
+p{
+    padding-bottom:50px;
+    line-height: 1.9;
+    letter-spacing: 2px;
+    margin-left: 30px;
+}
+
+
+.photo1,.photo2,.photo3,.photo4{
+    float: right;
+    /* margin: 100px; */
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    /* border: solid rgb(75, 0, 0) 10px; */
+}
+
+.b {
+    float: right;
+    clear: both;
+    border-radius: 35px;
+    margin-right: 70%;
+}
+#c1,#c2,#c3{
+    float: left;
+    margin: 10px 50px;
+}
+#c4{
+    float: left;
+    margin: 0px 50px 50px 100px;
+}
+h4,h3{
+    margin: 10px;
+    color: rgb(235, 149, 0);
+}
+.location
+{
+    margin-bottom: 250px;
+}
+.about{
+    margin-bottom: 200px;
+}
+video{
+    width:100%;
+    height: 700px;
+    position: relative;
+}
+
+
+table,td,th{
+      /* border: 10px solid rgb(47, 26, 0);  */
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    box-shadow: inset;
+    border-collapse: collapse;
+    tr:nth-child(even){ background-color: gray;}
+    tr:nth-child(odd){ background-color:rgb(255, 255, 255);}
+} 
+table{
+    height: 500px;
+    width: 40%;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+th{
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    color: #eaeffc;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button.Translate{
+    background-color: #eaeffc;
+    color: black;
+    border-radius: 50px;
+    padding: 5px;
+}
+button:hover{
+    background-color: rgb(182, 182, 182);
+}
+#demo{
+    width: 140px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(139, 105, 0);
+    text-align: center;
+}
+
