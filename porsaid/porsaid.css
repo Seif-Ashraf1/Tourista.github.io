@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Tes New Roman', serif;
+    overflow-x:hidden;
+}
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.container
+{   display: flex;
+    
+}
+.content1{
+    margin-left: 660px;
+    margin-bottom: 100px;
+    padding-top:20px ;
+    
+}
+.logo{
+    margin-left: 30px;
+    
+    height: auto;
+    left:0px;
+    width: 130px;
+    height: 70px;
+    cursor: pointer;
+}
+.navigation a{
+    position: relative;
+    font-size: 1.3em;
+    color: #fcfcfc;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 40px;
+    
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -6px;
+    height: 3px;
+    background: #eaeffc;
+    border-radius: 5px;
+    transform-origin: right ;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover:after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.navigation .Login-popup{
+
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #ffffff; 
+    padding: 6px;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.3em;
+    color: #fcfcfc;
+    font-weight: 600;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation .Login-popup:hover{
+    background: #fcfcfc;
+    color: rgb(0, 3, 4);
+    
+
+}
+
+.background{
+    margin-top: -210px;
+    margin-bottom: -19px;
+    height: 150dvh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(portsaid-image/malh.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+    h1{
+    padding-top: 138px;
+    text-align: center;
+    font-size: 330%;
+    color: #d46600;
+    padding-bottom: 40px;
+}
+.search-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#searchInput {
+    padding: 8px;
+    width: 200px;
+}
+
+#searchResults {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#searchResults li {
+    margin-bottom: 5px;
+}
+.background .wrapper .text_box h2{
+    color: #d46600;
+    margin-left: 20px;
+    margin-bottom: 50px;
+
+
+}
+.background .wrapper .text_box p{
+    color: white;
+    font-size: medium;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom:60px;
+}
+.wrapper img{
+    max-width: 210px;
+    width: 267px;
+    height: 193px;
+    float: left;
+    border: 3px solid #fcfcfc;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+}
+th{
+    background: rgb(244, 168, 5);
+    height: 40px;
+}
+td{
+    background: slategray;
+    height: 40px;
+    border: 2px dotted darkgray;
+}
+table{
+    width: 40;
+    margin-top: 30px;
+    margin-left: 500px;
+}
